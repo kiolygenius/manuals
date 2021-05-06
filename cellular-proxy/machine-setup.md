@@ -2,6 +2,7 @@
 - 系统版本：Ubuntu Server 20.04.2
 - 用户名：user
 - 密码: user
+- SSH 已经配置为只允许 public key 登录
 - 切换root使用 `sudo su -` 命令后输入密码 `user`
 - 如果需要更改固定IP，Ubuntu 更改网络配置采用 netplan 方案，配置文件 `/etc/netplan/00-installer-config.yaml`（[官方文档](https://netplan.io/examples)）
 
